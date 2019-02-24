@@ -6,7 +6,7 @@
 #
 
 # Get arch info
-OSARCH='uname -m';
+OSARCH=$(uname -m);
 
 # Get release infos fomr /etc/os-release file
 [[ -f /etc/os-release ]] && source /etc/os-release
