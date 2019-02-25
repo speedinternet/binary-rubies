@@ -1,14 +1,22 @@
-## birary-rubies
+# binary-rubies
 
-Binary rubies for use with [RVM](https://rvm.io)
+Binary rubies for use with [_RVM_](https://rvm.io)
 
-### Install
+## Installation
 
-Install the binaries using `rvm mount -r /path/or/url/of/package` 
+  - Download the selected package to a temporary directory
+  - Install the binaries using `rvm mount -r /path/or/url/of/package` 
 
-### Infos
+## Informations
 
-Binary rubies created using
+Binary rubies created using the following [_RVM_](https://rvm.io) commands
 
-`rvm --debug install --skip-gemsets --movable VERSION_TAG && rvm --debug prepare --path VERSION_TAG`
+```shell
+rvm --debug install --skip-gemsets --movable VERSION_NUMBER
+rvm --debug prepare --path VERSION_NUMBER
+```
 
+## Credits/Thanks
+
+  - [_RVM_](https://rvm.io) - Ruby version manager
+  - [_GNU Parallel_](https://www.gnu.org/software/parallel) - Shell tool for executing jobs in parallel
