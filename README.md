@@ -16,6 +16,16 @@ rvm --debug install --skip-gemsets --movable VERSION_NUMBER
 rvm --debug prepare --path VERSION_NUMBER
 ```
 
+### Warning
+
+Altho it could be tempting to clone this repository, i must warn you that it contains ALOT of files
+and is of considerable size. To solve this, you can clone a branch called _scripts-only_ which will
+allow to clone the repo without all the already compiled binary files.
+
+```shell
+git clone -b scripts-only --single-branch https://github.com/speedinternet/binary-rubies.git
+```
+
 ### Credits/Thanks
 
   - [_RVM_](https://rvm.io) - Ruby version manager
