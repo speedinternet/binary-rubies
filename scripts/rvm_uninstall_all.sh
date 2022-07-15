@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/local/rvm/bin/rvm remove all --gems --archive
+echo yes | /usr/local/rvm/bin/rvm remove all --gems --archive
